@@ -40,6 +40,9 @@ let
   };
 
   config = writeText "config.txt" ''
+    [pi02]
+    kernel=Tow-Boot.noenv.rpi3.bin
+
     [pi3]
     kernel=Tow-Boot.noenv.rpi3.bin
 
